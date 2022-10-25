@@ -1,0 +1,11 @@
+{
+    "DB-CONNEXION":{
+        "URI":"mongodb+srv://afef:afef1234@afefprojet.v0j0pum.mongodb.net/?retryWrites=true&w=majority"
+    },
+    "SERVER_CONFIG":{
+        "PORT":5000
+    },
+    "JWT_CONFIG":{
+        "SECRET_KEY":"MYAPP"
+    }
+}
