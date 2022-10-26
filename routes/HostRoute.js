@@ -1,10 +1,10 @@
-const mongoose=require('mongoose')
-const express=require('express')
-const { createHost, getHost, deleteHost, updateHost } = require('../controllers/HostController')
-const router=express.Router()
+const mongoose = require("mongoose");
+const express = require("express");
+const HostController = require("../controllers/HostController");
+const router = express.Router();
 
-router.post('/',createHost);
-router.get('/', getHost);
-router.delete('/:HostId',deleteHost);
-router.put('/:HostId', updateHost);
+router.post("/", HostController.createHost);
+router.get("/", HostController.getHost);
+router.delete("/:HostId", HostController.deleteHost);
+router.put("/:HostId", HostController.updateHost);
 module.exports = router;
