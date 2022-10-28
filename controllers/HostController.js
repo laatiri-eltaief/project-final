@@ -2,6 +2,8 @@ const Host = require("../models/HostModel");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const config = require("config");
+const { HostId } = require("../routes/HostRoute");
+
 
 const createHost = async (req, res) => {
   Host.create(req.body)
@@ -15,7 +17,7 @@ const getHost = (req, res) => {
     .catch((err) => res.status(500).json(err));
 };
 const deleteHost = (req, res) => {
-  Host.findByIdAndDelete(req.params.postID)
+  Host.findByIdAndDelete(req.params.HostId)
     .then((response) => res.json({ msg: "Host deleted" }))
     .catch((err) => res.status(500).json(err));
 };
