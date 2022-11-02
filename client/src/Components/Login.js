@@ -9,7 +9,7 @@ const Login = () => {
     password:""
   })
   const dispatch=useDispatch()
-  const loading=useSelector(state=>state.AuthReducer.loading)
+  const loading=useSelector(state=>state.AutoReducer.loading) 
   const handlechange=(e)=> {
     setUserInfo({...userInfo,[e.target.name]:e.target.value})
   }
@@ -17,9 +17,9 @@ const Login = () => {
     <div>
       <input type="text" placeholder="email" onChange={handlechange}name="email"/>
       <input type="password" placeholder="password" onChange={handlechange}name="password"/>
-      <button onClick={()=>dispatch(userLogin(userInfo))}> { loading ? <Spinner animation="border" role="status">
+      <button onClick={()=>dispatch(userLogin(userInfo))} >  { loading ? <Spinner animation="border" role="status">
       <span className="visually-hidden">Loading...</span>
-    </Spinner> : "Login"}</button>
+    </Spinner> : "Login"}  </button>
      
     </div>
   )

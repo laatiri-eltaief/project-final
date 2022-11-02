@@ -4,7 +4,7 @@ const HostController = require("../controllers/HostController");
 const router = express.Router();
 
 router.post("/", HostController.createHost);
-router.get("/", HostController.getHost);
-router.delete("/:HostId", HostController.deleteHost);
-router.put("/:HostId", HostController.updateHost);
+router.get("/",middlwares,adminMiddlware, HostController.getHost);
+router.delete("/:HostId",middlwares,adminMiddlware, HostController.deleteHost);
+router.put("/:HostId",middlwares,adminMiddlware, HostController.updateHost);
 module.exports = router;

@@ -14,7 +14,7 @@ const Register = () => {
     })
     const dispatch=useDispatch()
     const navigate=useNavigate()
-  const loading=useSelector(state=>state.AuthReducer.loading)
+  const loading=useSelector(state=>state.AutoReducer.loading)
   const handlechange=(e)=> {
     setUserInfo({...userInfo,[e.target.name]:e.target.value})
   }
