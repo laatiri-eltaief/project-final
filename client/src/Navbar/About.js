@@ -4,6 +4,7 @@ function About() {
   return (
     <div style={{textAlign:'center'}}>
 <h1>About Maison des jeunes elbhair</h1>
+<img data-visualcompletion="media-vc-image" alt="Peut être une image de ‎texte qui dit ’‎Jeunes CARRINE الجمهورية التونسية وزارة الشباب والرياضة المندوبية الجهوية دار الشباب البجابر حمام SOUSSE HAMMAM ELBHAIER JEUNES MAISON هدف المؤسسة objectif Notre joie, la connaître Pour PARTAGER faut il الأنشطة الترفيهية الأنشطة العلمية دارالشباب البحاير حمام سوسة الأنشطة الرياضية ن الأنشطة الثقافية الأنشطة البيئية الأنشطة الفنية السنة الشبابية 2022/2021 ميثاق المؤسسة التحلي بأخلاق حسنة احترام الآخر احترام توقيت النشاط والمواظبة على الحضور الحرص على الفعالة نظافة المؤسسة الحفاض على اجهزتها المشا المثمرة في أنشطة المؤسسة المساهمة في إشعاع في محيطها الخارجي زيارتكم تشرفنا واقتراحاتكم تنيرنا com mjmjelbhaier@gmail.com M 4011 Sousse Hammam maamoun Rue maison Sousse Hammam elbhaier‎’‎" class="x1bwycvy x193iq5w x4fas0m x19kjcj4" referrerpolicy="origin-when-cross-origin" src="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/275586556_515905183255287_2828202632739852032_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=730e14&amp;_nc_ohc=zIH0hdVy_50AX-pCOuX&amp;_nc_ht=scontent.ftun16-1.fna&amp;oh=00_AfCgFqNxLiMWiFEFBV8vhiqq3AAvmE92t-l4MLOgMx9vzQ&amp;oe=6368BEBC"></img>
 <p>
 La maisons des jeunes elbhair est un espace pour les jeunes et les adultes qui se sont donné pour mission, sur une base volontaire, dans leur communauté, de tenir un lieu de rencontre animé où les jeunes de 12 à 17 ans, au contact d’adultes significatifs, pourront devenir des citoyen·nes critiques, actif·ves et responsables.
   </p>
@@ -41,6 +42,7 @@ Elles apprennent aux jeunes à faire des choix éclairés : organisation de déb
 Elles combattent la surconsommation : information appropriée sur l’alcool, la drogue et le jeu, kiosque d’information dans les écoles secondaires;
 Elles développent le sens des responsabilités : discussions sur les conséquences des actes et des choix posés et sur la responsabilité de se reprendre lorsque l’on s’est trompé;
   </p>
+  <img data-visualcompletion="media-vc-image" alt="Peut être une image de une personne ou plus" class="x1bwycvy x193iq5w x4fas0m x19kjcj4" referrerpolicy="origin-when-cross-origin" src="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/275556292_515905186588620_5151417327696959261_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=730e14&amp;_nc_ohc=k801-zZRUzEAX_Yq21I&amp;_nc_ht=scontent.ftun16-1.fna&amp;oh=00_AfCjkCI_cpagaHOEFgRULCXhAgciZabeTXTxSR-uI6DREA&amp;oe=6368535F"></img>
     </div>
   )
 }

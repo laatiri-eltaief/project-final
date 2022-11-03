@@ -1,9 +1,8 @@
 import React from 'react';
+import { ADD_ACTIVITY,GET_ACTIVITY, } from '../Actions/TypesAction';
 
-import { ADD_ACTIVITY,GET_ACTIVITY, } from '../Actions/Types';
 
-
-const ActivityReducer = (state= {Activity:[]} ,{type,payload} )=>{
+const ActivityReducer = (state= InitState ,{Activity:[]} ,{type,payload} )=>{
     switch(type){
     case ADD_ACTIVITY:
         return {...state,Activity:[...state.Activity,payload]}

@@ -1,11 +1,10 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const ActivityController = require("../controllers/ActivityController");
-const adminMiddlware = require("../middlwares/adminMiddlware");
 const router = express.Router();
 
 router.post("/", ActivityController.createActivity);
-router.get("/", middlwares,adminMiddlware,ActivityController.getActivity);
-router.delete("/:ActivityId",middlwares,adminMiddlware, ActivityController.deleteActivity);
-router.put("/:ActivityId",middlwares,adminMiddlware, ActivityController.updateActivity);
+router.get("/", ActivityController.getActivity);
+router.delete("/:ActivityId", ActivityController.deleteActivity);
+router.put("/:ActivityId", ActivityController.updateActivity);
 module.exports = router;

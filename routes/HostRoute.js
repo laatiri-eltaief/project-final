@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const HostController = require("../controllers/HostController");
+const adminMiddlware = require("../middlwares/adminMiddlware");
 const router = express.Router();
 
 router.post("/", HostController.createHost);
-router.get("/",middlwares,adminMiddlware, HostController.getHost);
-router.delete("/:HostId",middlwares,adminMiddlware, HostController.deleteHost);
-router.put("/:HostId",middlwares,adminMiddlware, HostController.updateHost);
+router.get("/", HostController.getHost);
+router.delete("/:HostId", HostController.deleteHost);
+router.put("/:HostId", HostController.updateHost);
 module.exports = router;
